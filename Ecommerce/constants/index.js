@@ -1,6 +1,6 @@
 
 import { COLORS,  SIZES, images, SHADOWS} from "./theme";
 
-const backendUrl = "http://192.168.0.167:3000";
+const backendUrl = "https://roomcraft-rvq0.onrender.com";
 
 export { COLORS,  SIZES, images, SHADOWS, backendUrl};

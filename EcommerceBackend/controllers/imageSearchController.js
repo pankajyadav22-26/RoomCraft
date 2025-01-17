@@ -1,6 +1,6 @@
 const vision = require("@google-cloud/vision");
 const client = new vision.ImageAnnotatorClient({
-    keyFilename: "controllers/APIFile.json",
+    keyFilename: "EcommerceBackend/APIFile.json",
 });
 
 const labelDetectionController = async (req, res) => {
